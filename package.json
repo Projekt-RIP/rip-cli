@@ -1,0 +1,26 @@
+{
+  "name": "@projekt-rip/rip",
+  "version": "1.0.0",
+  "description": "Take your \"online\" offline",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Projekt-RIP/rip-cli.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Projekt-RIP/rip-cli/issues"
+  },
+  "homepage": "https://github.com/Projekt-RIP/rip-cli#readme",
+  "dependencies": {
+    "cfonts": "^2.4.5",
+    "clear": "^0.1.0",
+    "minimist": "^1.2.0",
+    "terminal-banner": "^1.1.0",
+    "uid": "0.0.2"
+  }
+}
