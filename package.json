@@ -21,6 +21,7 @@
     "clear": "^0.1.0",
     "minimist": "^1.2.0",
     "terminal-banner": "^1.1.0",
+    "terminal-kit": "^1.31.7",
     "uid": "0.0.2"
   }
 }
