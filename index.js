@@ -11,7 +11,7 @@ const args = require('minimist')(process.argv.slice(2))
 function run() {
 
     // Check help message
-    if ((args.h != undefined) || (args.help != undefined)) { output.help() }
+    if ((args.h != undefined) || (args.help != undefined)) { output.utility.help(); process.exit(0) }
     
     // data in specified json
     const data = input.data(args)
