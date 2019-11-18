@@ -3,8 +3,8 @@
  * 15.11.2019
  */
 
-const welcomeBanner = require("./lib/welcome-banner")
-const help = require("./lib/help")
+const welcomeBanner = require("./lib/output/welcome-banner")
+const help = require("./lib/output/help")
 var argv = require('minimist')(process.argv.slice(2))
 
 
@@ -16,8 +16,8 @@ function run() {
             
         case (argv._.includes("parameter")):
             welcomeBanner.show()
-            const inputModule = require("./lib/input/paramter")
-            console.log(inputModule.convert(argv))
+            const data = require("./lib/input/paramter").convert(argv)
+            
             break;
 
         case (argv._.includes("file") || argv._.includes("interactive") || argv._.includes("passwordmanager")):
@@ -32,7 +32,6 @@ function run() {
             process.exit(0)
             break;
     }
-    
 }
 
 run()
