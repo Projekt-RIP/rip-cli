@@ -6,10 +6,15 @@
 const input = require("./lib/input")
 const processing = require("./lib/processing")
 const output = require("./lib/output")
-const argv = require('minimist')(process.argv.slice(2))
+const args = require('minimist')(process.argv.slice(2))
 
 function run() {
-    const data = input.data(argv)
+
+    // Check help message
+    if ((args.h != undefined) || (args.help != undefined)) { output.help() }
+    
+    // data in specified json
+    const data = input.data(args)
 }
 
 run()
