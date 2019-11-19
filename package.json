@@ -4,7 +4,8 @@
   "description": "Take your \"online\" offline",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "download": "git clone https://github.com/Projekt-RIP/cypressScripts.git ./collection"
   },
   "repository": {
     "type": "git",
@@ -20,8 +21,10 @@
     "cfonts": "^2.4.5",
     "clear": "^0.1.0",
     "clui": "^0.3.6",
+    "cypress": "^3.6.1",
     "log-symbols": "^3.0.0",
     "minimist": "^1.2.0",
+    "temp": "^0.9.1",
     "terminal-banner": "^1.1.0",
     "terminal-kit": "^1.31.7",
     "uid": "0.0.2"
