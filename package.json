@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "download": "git clone https://github.com/Projekt-RIP/cypressScripts.git ./collection"
+    "download": "rm -fr ./collection && git clone https://github.com/Projekt-RIP/cypressScripts.git ./collection"
   },
   "repository": {
     "type": "git",
