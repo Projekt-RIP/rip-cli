@@ -15,7 +15,7 @@ function run() {
     
     // data in specified json
     const data = input.data(args)
-    processing.init(data)
+    processing.go(data)
 }
 
 run()
