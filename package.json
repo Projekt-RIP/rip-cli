@@ -19,7 +19,6 @@
   "homepage": "https://github.com/Projekt-RIP/rip-cli#readme",
   "dependencies": {
     "cfonts": "^2.4.5",
-    "clear": "^0.1.0",
     "clui": "^0.3.6",
     "cypress": "^3.6.1",
     "log-symbols": "^3.0.0",
