@@ -13,6 +13,10 @@ function run() {
     // Check help message
     if ((args.h != undefined) || (args.help != undefined)) { output.utility.help(); process.exit(0) }
     
+    // Output
+    output.utility.welcome()
+    output.title("Preparation")
+    
     // data in specified json
     const data = input.data(args)
     processing.go(data)
