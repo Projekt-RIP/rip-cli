@@ -1,3 +1,5 @@
 {
-    "integrationFolder": "./collection"
+    "integrationFolder": "./collection",
+    "video": "false",
+    "screenshotOnRunFailure": "false"
 }
