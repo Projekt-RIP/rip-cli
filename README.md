@@ -47,4 +47,4 @@ Where <mode> is one of:
 * Including Database Interfaces for Password Managers e.g. KeePass, NPass, onepassword, Dashlane, etc.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[GNU AGPLv3](https://choosealicense.com/licenses/agpl-3.0/)
