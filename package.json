@@ -1,6 +1,6 @@
 {
   "name": "@projekt-rip/rip",
-  "version": "1.0.0",
+  "version": "0.1-alpha",
   "description": "Take your \"online\" offline",
   "main": "index.js",
   "scripts": {
