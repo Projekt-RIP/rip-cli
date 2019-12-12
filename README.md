@@ -61,4 +61,4 @@ Where <mode> is one of:
 - [ ] Publish on npm
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[GNU AGPLv3](https://choosealicense.com/licenses/agpl-3.0/)
