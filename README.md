@@ -1,7 +1,12 @@
 # Projekt-RIP - Commandline Interface
+![Prototype](https://img.shields.io/badge/-prototype-critical)
+![GitHub](https://img.shields.io/github/license/Projekt-RIP/rip-cli)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/Projekt-RIP/rip-cli)
+
+---
 
 This is a programm used to delete accounts on different websites.
-The automation is based  on the CyPress testing tool (https://docs.cypress.io/guides/overview/why-cypress.html#In-a-nutshell).
+The automation is based on the cypress testing tool (https://docs.cypress.io/guides/overview/why-cypress.html#In-a-nutshell).
 
 
 ## Installation
@@ -40,11 +45,20 @@ Where <mode> is one of:
 
 ## Contributing
 
-### Roadmap
-* Adding numerous websites
-* Implementing improved Exception Handling
-* Improving standardized output
-* Including Database Interfaces for Password Managers e.g. KeePass, NPass, onepassword, Dashlane, etc.
+### Features
+
+- [X] Added parameter mode
+- [X] created delete-instructions for www.facebook.com
+- [X] created delete-instructions for www.instagram.com
+- [X] created delete-instructions for www.twitter.com
+
+- [ ] Add re-captcha support
+- [ ] Support advanced feedback like "Please don't log in again in the next 30 days ... "
+- [ ] Add interactive mode
+- [ ] Add file mode
+- [ ] Add passwordmanager mode for e.g. KeePass, NPass, onepassword, Dashlane, etc.
+- [ ] Add more delete-instructions for other sites
+- [ ] Publish on npm
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
