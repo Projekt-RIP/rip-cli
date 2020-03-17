@@ -22,7 +22,7 @@
     "clui": "^0.3.6",
     "cypress": "^3.6.1",
     "log-symbols": "^3.0.0",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.2",
     "terminal-banner": "^1.1.0",
     "terminal-kit": "^1.31.7",
     "uid": "0.0.2"
